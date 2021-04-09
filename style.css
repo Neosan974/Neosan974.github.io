@@ -1,0 +1,87 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+    width: 99.817%;
+}
+header{
+    /* position: fixed; */
+    height: 100px;
+    width: 100%;
+    background-color: lightcyan;
+    border: 1px solid blue;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    border: 1px solid red;
+}
+nav>ul>li{
+    list-style: none;
+}
+#Accueil{
+    border: 1px solid gray;
+    position: relative;
+    left: 5%;
+    height: 500px;
+    width: 90%;
+}
+#Accueil>p{
+    text-align: center;
+    font-size: 50px;
+}
+h1{
+    color: red;
+    font-size: 80px;
+    height: 100px;
+    width: 500px;
+    position: relative;
+    top: 0px;
+    left: 33%;
+    text-decoration: underline;
+    text-align: center;
+    border: 1px solid gray;
+}
+p, ul, li{
+    font-size: 30px;
+    border: 1px solid gray;
+}
+li{
+    list-style: square;
+    width: 50%;
+}
+#Competences_BTS{
+    border: 1px solid gray;
+}
+.sous_partie{
+    height: 500px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+#presentation>p, #Competences>p, #Etudes>p{
+    height: 180px;
+    width: 50%;
+    overflow: auto;
+}
+#presentation{
+    background-color: lightblue;
+}
+#photo_de_profil{
+    border-radius: 50%;
+    border: 5px dashed lightslategray;
+    height: 300px;
+    width: 250px;
+    position: relative;
+    top: 75px;
+    left: 200px;
+}
+#presentation>p{
+    /* height: 350px;
+    width: 60%; */
+    border: 1px solid gray;
+    position: relative;
+    top: -250px;
+    left: 500px;
+    text-align: center;
+}
