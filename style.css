@@ -68,7 +68,6 @@ li{
     background-color: lightblue;
 }
 #photo_de_profil{
-    src: url("ressources/Nicolas_Hoarau.jpg");
     border-radius: 50%;
     border: 5px dashed lightslategray;
     height: 300px;
